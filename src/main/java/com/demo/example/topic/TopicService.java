@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-//@Service
+@Service
 public class TopicService {
 
     public boolean isPlayground = false;
@@ -19,7 +19,7 @@ public class TopicService {
         isPlayground = playground;
     }
 
-//    @Autowired
+    @Autowired
     private TopicRepository topicRepository;
 
     public List<Topic> getAllTopics(){
