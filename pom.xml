@@ -26,6 +26,7 @@
 	</repositories>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>com.demoBean</groupId>
 			<artifactId>demoBean</artifactId>
